@@ -1,9 +1,9 @@
 <template>
   <section
     id="amenities"
-    class="relative py-[100px] max-[640px]:py-16 leading-12"
+    class="relative py-[100px] max-[640px]:py-16 max-[640px]:leading-8 leading-12"
   >
-    <div class="max-w-[1180px] mx-auto px-8 max-[640px]:px-5">
+    <div class="max-w-[1280px] mx-auto px-8 max-[640px]:px-5">
       <div class="reveal mb-14 text-center">
         <h2
           class="text-[clamp(28px,3.6vw,42px)] font-bold text-[#0F1E33] dark:text-white max-w-200 mx-auto"
@@ -17,8 +17,9 @@
         </p>
       </div>
 
+      <!-- ================= DESKTOP / TABLET LAYOUT ================= -->
       <div
-        class="reveal grid grid-cols-[1fr_320px_1fr] max-[980px]:grid-cols-1 gap-6 items-start"
+        class="reveal grid grid-cols-[1fr_320px_1fr] max-[980px]:grid-cols-1 gap-6 items-start max-[640px]:hidden"
       >
         <!-- Chap ustun -->
         <div class="flex flex-col gap-5">
@@ -74,6 +75,42 @@
               {{ am[lang] }}
             </p>
           </div>
+        </div>
+      </div>
+
+      <!-- ================= MOBILE LAYOUT ================= -->
+      <div class="hidden max-[640px]:flex max-[640px]:flex-col gap-4">
+        <!-- To'liq kenglikdagi rasm -->
+        <div
+          class="relative w-full aspect-[335/220] rounded-3xl overflow-hidden bg-gradient-to-br from-red-600 to-red-500"
+        >
+          <span
+            class="pointer-events-none select-none absolute inset-0 text-white/25 [&>svg]:w-full [&>svg]:h-full"
+            v-html="hexDotSvg()"
+          ></span>
+
+          <img
+            src="../../public/images/person.png"
+            alt="MENDELEYEV"
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[130%] max-[640px]:h-[100%] w-auto max-w-none object-contain z-10"
+          />
+        </div>
+
+        <!-- Bitta ustunli, uzunroq kartochkalar -->
+        <div
+          class="rounded-2xl bg-[#F3F5F7] dark:bg-white/5 px-4 py-4 flex gap-4 items-center"
+          v-for="am in amenities"
+          :key="am.uz"
+        >
+          <span
+            class="w-12 h-12 rounded-xl bg-red-500 flex items-center justify-center shrink-0 [&>svg]:w-5 [&>svg]:h-5 [&>svg]:text-white"
+            v-html="amenIconSvg(am.icon)"
+          ></span>
+          <p
+            class="text-[15px] text-[#0F1E33] dark:text-white leading-[1.45] font-medium"
+          >
+            {{ am[lang] }}
+          </p>
         </div>
       </div>
     </div>

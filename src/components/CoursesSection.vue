@@ -1,6 +1,6 @@
 <template>
   <section id="courses" class="relative max-[640px]:py-16 leading-12">
-    <div class="max-w-[1180px] mx-auto px-8 max-[640px]:px-5">
+    <div class="max-w-[1280px] mx-auto px-8 max-[640px]:px-5">
       <div class="reveal mb-14 text-center">
         <h2
           class="text-[clamp(28px,3.6vw,42px)] font-bold text-[#0F1E33] dark:text-white max-w-200 mx-auto"

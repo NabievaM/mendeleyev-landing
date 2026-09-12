@@ -17,11 +17,13 @@
       </div>
 
       <!-- CARDS -->
-      <div class="reveal grid grid-cols-2 max-[980px]:grid-cols-1 gap-7">
+      <div
+        class="reveal grid grid-cols-2 gap-7 max-[980px]:grid-cols-1 max-[640px]:flex max-[640px]:grid-cols-none max-[640px]:overflow-x-auto max-[640px]:snap-x max-[640px]:snap-mandatory max-[640px]:-mx-2 max-[640px]:px-2 max-[640px]:pb-0 max-[640px]:[scrollbar-width:none] max-[640px]:[&::-webkit-scrollbar]:hidden"
+      >
         <div
           v-for="p in problems"
           :key="p.problem.uz"
-          class="rounded-3xl bg-[#F5F6F7] dark:bg-white/5 p-6 max-[640px]:p-5 max-[640px]:pb-9"
+          class="rounded-3xl bg-[#F5F6F7] dark:bg-white/5 p-6 max-[640px]:p-3 max-[640px]:shrink-0 max-[640px]:w-[90%] max-[640px]:snap-center"
         >
           <!-- OTA-ONA -->
           <div class="flex items-end gap-3 mb-4">

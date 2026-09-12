@@ -1,5 +1,8 @@
 <template>
-  <section id="advantages" class="relative max-[640px]:py-16 leading-12 pb-30">
+  <section
+    id="advantages"
+    class="relative max-[640px]:py-5 max-[640px]:leading-7 leading-12 pb-30"
+  >
     <div class="max-w-295 mx-auto px-8 max-[640px]:px-5">
       <div class="reveal mb-14 text-center">
         <h2
@@ -13,9 +16,11 @@
           {{ t.advSub }}
         </p>
       </div>
-      <div class="reveal grid grid-cols-2 max-[640px]:grid-cols-1 gap-7">
+      <div
+        class="reveal grid grid-cols-2 gap-7 max-[640px]:flex max-[640px]:grid-cols-none max-[640px]:overflow-x-auto max-[640px]:snap-x max-[640px]:snap-mandatory max-[640px]:-mx-5 max-[640px]:px-5 max-[640px]:pb-2 max-[640px]:[scrollbar-width:none] max-[640px]:[&::-webkit-scrollbar]:hidden"
+      >
         <div
-          class="relative overflow-hidden p-[34px_30px] rounded-2xl bg-[#F3F5F7] dark:bg-white/5 transition-transform duration-200 hover:-translate-y-1"
+          class="relative overflow-hidden p-[34px_30px] max-[640px]:p-[20px_20px] rounded-2xl bg-[#F3F5F7] dark:bg-white/5 transition-transform duration-200 hover:-translate-y-1 max-[640px]:shrink-0 max-[640px]:w-[95%] max-[640px]:snap-center"
           v-for="a in advantages"
           :key="a.icon"
         >
@@ -27,11 +32,11 @@
 
           <div class="relative z-10">
             <span
-              class="w-16 h-16 rounded-2xl bg-red-500 flex items-center justify-center mb-5 shrink-0 [&>svg]:w-10 [&>svg]:h-10 [&>svg]:text-white"
+              class="w-16 h-16 max-[640px]:w-12 max-[640px]:h-12 rounded-2xl bg-red-500 flex items-center justify-center mb-5 shrink-0 [&>svg]:w-10 [&>svg]:h-10 [&>svg]:text-white"
               v-html="advIconSvg(a.icon)"
             ></span>
             <h3
-              class="text-[30px] font-bold text-[#0F1E33] dark:text-white mb-2.5"
+              class="text-[30px] max-[640px]:text-[25px] font-bold text-[#0F1E33] dark:text-white mb-2.5"
             >
               {{ a.title[lang] }}
             </h3>
@@ -53,7 +58,7 @@
             <!-- Oddiy paragraf -->
             <p
               v-else
-              class="text-[17px] font-medium text-gray-400 dark:text-white/60 leading-[1.6] max-w-[70%]"
+              class="text-[17px] max-[640px]:text-[15px] font-medium text-gray-400 dark:text-white/60 leading-[1.6] max-w-[70%] max-[640px]:max-w-[90%]"
             >
               {{ a.desc[lang] }}
             </p>

@@ -1,6 +1,6 @@
 <template>
   <section id="team" class="relative py-[100px] max-[640px]:py-16">
-    <div class="max-w-[1180px] mx-auto px-8 max-[640px]:px-5">
+    <div class="max-w-[1280px] mx-auto px-8 max-[640px]:px-5">
       <!-- TITLE -->
       <div class="reveal mb-14 text-center">
         <h2

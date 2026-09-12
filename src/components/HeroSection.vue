@@ -1,10 +1,10 @@
 <template>
   <section
     id="top"
-    class="relative overflow-hidden bg-white dark:bg-ink transition-colors duration-300 pt-16 pb-[100px] max-[640px]:pt-14 max-[640px]:pb-16"
+    class="relative overflow-hidden bg-white dark:bg-ink transition-colors duration-300 pt-16 pb-[100px] max-[640px]:pt-8 max-[640px]:pb-1"
   >
     <div
-      class="mx-auto grid max-w-[1180px] grid-cols-[1.05fr_0.95fr] items-center gap-[50px] px-8 max-[980px]:grid-cols-1 max-[980px]:gap-8 max-[640px]:px-5"
+      class="mx-auto grid max-w-[1280px] grid-cols-[1.05fr_0.95fr] items-center gap-[50px] px-8 max-[980px]:grid-cols-1 max-[980px]:gap-8 max-[640px]:px-5"
     >
       <!-- ================= LEFT ================= -->
       <div class="relative z-20">
@@ -18,7 +18,7 @@
           "
         >
           <div
-            class="relative inline-flex max-w-full items-center overflow-hidden rounded-[12px] bg-[#f7f8fa] px-4 py-[10px] pr-10 shadow-[0_3px_12px_rgba(0,0,0,0.025)]"
+            class="relative inline-flex max-w-full items-center overflow-hidden rounded-[12px] bg-[#f7f8fa] px-4 py-2.5 pr-10 shadow-[0_3px_12px_rgba(0,0,0,0.025)]"
           >
             <span
               class="whitespace-nowrap text-[16px] font-semibold leading-[1.35] tracking-[-0.3px] text-[#7d83a3] max-[480px]:whitespace-normal max-[480px]:text-[13px]"
@@ -77,7 +77,7 @@
           <a
             href="#contact"
             @click.prevent="$emit('openContact')"
-            class="inline-flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-red-800 via-red-700 to-red-600 px-10 py-5 text-[16px] font-semibold text-white shadow-[0_14px_30px_-12px_rgba(230,50,98,0.55)] transition-all duration-200 hover:-translate-y-0.5 hover:from-red-600 hover:via-red-500 hover:to-red-500 max-[640px]:w-full max-[640px]:px-6 max-[640px]:py-4.5"
+            class="inline-flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-red-800 via-red-700 to-red-600 px-25 py-6 text-[16px] font-semibold text-white shadow-[0_14px_30px_-12px_rgba(230,50,98,0.55)] transition-all duration-200 hover:-translate-y-0.5 hover:from-red-600 hover:via-red-500 hover:to-red-500 max-[640px]:w-full max-[640px]:px-6 max-[640px]:py-4.5"
           >
             {{ t.hero.ctaPrimary }}
           </a>
@@ -108,14 +108,14 @@
 
       <!-- ================= RIGHT ================= -->
       <div
-        class="relative flex h-[570px] items-center justify-center transition-[opacity,transform] duration-[900ms] ease delay-[200ms] max-[980px]:order-[-1] max-[980px]:h-[520px] max-[640px]:h-[430px] motion-reduce:transition-none"
+        class="relative flex h-[570px] items-center justify-center transition-[opacity,transform] duration-[900ms] ease delay-[200ms] max-[980px]:order-[-1] max-[640px]:order-none max-[980px]:h-[520px] max-[640px]:h-[430px] motion-reduce:transition-none"
         :class="heroLoaded ? 'scale-100 opacity-100' : 'scale-[0.94] opacity-0'"
       >
         <!-- ========================================= -->
         <!-- MODERN BACKGROUND + PERSON -->
         <!-- ========================================= -->
         <div
-          class="absolute bottom-[25px] right-[5%] h-[100%] w-[88%] overflow-hidden bg-red-500 shadow-[0_35px_70px_-25px_rgba(230,50,98,0.45)] max-[980px]:right-[4%] max-[980px]:w-[90%] max-[640px]:right-0 max-[640px]:w-[94%]"
+          class="absolute bottom-[25px] max-[640px]:bottom-15 right-[5%] h-[100%] w-[88%] overflow-hidden bg-red-500 shadow-[0_35px_70px_-25px_rgba(230,50,98,0.45)] max-[980px]:right-[4%] max-[980px]:w-[90%] max-[640px]:right-0 max-[640px]:w-[94%]"
           style="
             clip-path: polygon(
               14% 5%,
@@ -183,11 +183,11 @@
           <!-- ========================================= -->
           <!-- PERSON INSIDE SHAPE -->
           <!-- ========================================= -->
-          <div class="absolute inset-0 z-[5] flex items-end justify-center">
+          <div class="absolute inset-0 z-5 flex items-end justify-center">
             <img
               src="/images/ustoz.png"
               alt=""
-              class="h-[200%] w-[108%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.18)] max-[980px]:h-[105%] max-[980px]:w-[105%] max-[640px]:h-[100%] max-[640px]:w-[110%]"
+              class="h-[150%] w-[100%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.18)] max-[980px]:h-[105%] max-[980px]:w-[105%] max-[640px]:h-[200%] max-[640px]:w-[110%]"
             />
           </div>
 
@@ -195,7 +195,7 @@
           <!-- DARK GLASS -->
           <!-- ========================================= -->
           <div
-            class="absolute bottom-35 left-0 z-10 h-[105px] w-full bg-white/[0.20] backdrop-blur-[1px] max-[640px]:h-[80px]"
+            class="absolute bottom-35 max-[640px]:bottom-27 left-0 z-10 h-[105px] w-full bg-white/[0.20] backdrop-blur-[1px] max-[640px]:h-[80px]"
           >
             <div
               class="flex h-full items-center justify-center px-5 text-center"

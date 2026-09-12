@@ -6,14 +6,18 @@
     class="sticky top-0 z-[100] border-b border-line bg-white backdrop-blur-[14px] dark:border-white/10 dark:bg-ink"
   >
     <div
-      class="mx-auto flex h-[84px] max-w-[1180px] items-center justify-between px-8 max-[640px]:px-5"
+      class="mx-auto flex h-[84px] max-w-[1280px] items-center justify-between px-8 max-[640px]:px-2"
     >
       <!-- =====================================================
            LOGO
       ====================================================== -->
-      <a href="#top" class="flex items-center gap-3" @click="closeMenu">
+      <a
+        href="#top"
+        class="flex items-center gap-3 max-[640px]:gap-1 min-w-0"
+        @click="closeMenu"
+      >
         <span
-          class="relative inline-flex h-14 w-14 shrink-0 items-center justify-center"
+          class="relative inline-flex h-14 w-14 max-[640px]:w-10 max-[640px]:h-10 shrink-0 items-center justify-center"
         >
           <img
             src="/images/logo.jpg"
@@ -22,7 +26,7 @@
           />
         </span>
 
-        <span class="flex flex-col leading-[1.15]">
+        <span class="flex flex-col leading-[1.15] min-w-0">
           <strong
             class="font-[Montserrat] text-2xl max-[480px]:text-lg max-[380px]:text-base font-extrabold leading-[0.85] tracking-[-0.5px] text-red-950 dark:text-white"
           >
@@ -34,12 +38,13 @@
       <!-- =====================================================
            RIGHT SIDE
       ====================================================== -->
-      <div class="flex items-center gap-[18px]">
+      <div class="flex items-center gap-4.5 max-[640px]:gap-2 shrink-0">
         <!-- ===================================================
              PHONE
         ==================================================== -->
-        
-          <a :href="'tel:' + data.phoneRaw"
+
+        <a
+          :href="'tel:' + data.phoneRaw"
           class="whitespace-nowrap text-[17px] text-gray-500 max-[980px]:hidden dark:text-white/60"
         >
           {{ data.phone }}
@@ -51,16 +56,16 @@
         <div class="relative" ref="langWrapRef">
           <button
             type="button"
-            class="flex cursor-pointer items-center gap-1.5 px-2.5 py-1.5 pl-2 text-[13px] font-bold text-ink transition-colors duration-200 dark:text-white"
+            class="flex cursor-pointer items-center gap-1.5 px-2.5 py-1.5 pl-2 max-[640px]:px-1 max-[640px]:gap-1 text-[13px] font-bold text-ink transition-colors duration-200 dark:text-white"
             @click="langMenuOpen = !langMenuOpen"
           >
             <img
               :src="currentLangOption.flag"
               alt=""
-              class="h-6 w-8 shrink-0 rounded-[3px] border border-gray-200 object-cover"
+              class="h-6 w-8 max-[640px]:h-5 max-[640px]:w-7 shrink-0 rounded-[3px] border border-gray-200 object-cover"
             />
 
-            <span>
+            <span class="max-[640px]:hidden">
               {{ currentLangOption.label }}
             </span>
 
@@ -107,8 +112,9 @@
         <!-- ===================================================
              CONTACT BUTTON
         ==================================================== -->
-        
-         <a href="#contact"
+
+        <a
+          href="#contact"
           @click.prevent="$emit('openContact')"
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-red-500 px-8 py-3.5 text-md font-semibold text-white hover:bg-red-600 max-[640px]:hidden"
         >
@@ -293,8 +299,9 @@
       ====================================================== -->
       <nav class="mt-16 flex flex-col items-center gap-7 text-center">
         <!-- YO'NALISHLAR -->
-        
-          <a href="#courses"
+
+        <a
+          href="#courses"
           @click="closeMenu"
           class="text-[20px] font-medium text-red-950 transition-colors duration-200 hover:text-red-500 dark:text-white dark:hover:text-red-400"
         >
@@ -302,8 +309,9 @@
         </a>
 
         <!-- JAMOA -->
-        
-          <a href="#team"
+
+        <a
+          href="#team"
           @click="closeMenu"
           class="text-[20px] font-medium text-red-950 transition-colors duration-200 hover:text-red-500 dark:text-white dark:hover:text-red-400"
         >
@@ -311,8 +319,9 @@
         </a>
 
         <!-- SAVOL-JAVOB -->
-        
-          <a href="#faq"
+
+        <a
+          href="#faq"
           @click="closeMenu"
           class="text-[20px] font-medium text-red-950 transition-colors duration-200 hover:text-red-500 dark:text-white dark:hover:text-red-400"
         >
@@ -324,8 +333,8 @@
            MOBILE PHONE
       ====================================================== -->
       <div class="mt-10 text-center min-[981px]:hidden">
-        
-          <a :href="'tel:' + data.phoneRaw"
+        <a
+          :href="'tel:' + data.phoneRaw"
           class="text-[16px] font-medium text-gray-500 dark:text-white/60"
           @click="closeMenu"
         >
@@ -337,8 +346,8 @@
            BOTTOM CONSULTATION
       ====================================================== -->
       <div class="mt-auto">
-        
-          <a href="#contact"
+        <a
+          href="#contact"
           @click.prevent="onMobileContactClick"
           class="flex h-[60px] w-full items-center justify-center rounded-xl bg-red-500 text-[16px] font-semibold text-white transition-all duration-200 hover:bg-red-600 hover:shadow-[0_14px_30px_-12px_rgba(239,68,68,0.65)]"
         >

@@ -16,7 +16,7 @@
       <path d="M77 55H122L100 100L77 55Z" fill="white" opacity=".1" />
     </svg>
 
-    <div class="relative max-w-[1180px] mx-auto px-8 max-[640px]:px-5">
+    <div class="relative max-w-[1280px] mx-auto px-8 max-[640px]:px-5">
       <!-- MAIN FOOTER -->
       <div
         class="grid grid-cols-[270px_270px_1fr_310px] gap-x-8 pt-11 pb-5 max-[1100px]:grid-cols-2 max-[1100px]:gap-x-14 max-[700px]:grid-cols-1 max-[700px]:gap-10"
@@ -25,7 +25,11 @@
         <div>
           <a href="#top" class="inline-flex items-center gap-3">
             <!-- Logo icon -->
-            <img class="w-12 h-12 rounded-full" src="../../public/images/logo.jpg" alt="">
+            <img
+              class="w-12 h-12 rounded-full"
+              src="../../public/images/logo.jpg"
+              alt=""
+            />
 
             <!-- Logo text -->
             <span
@@ -69,24 +73,24 @@
 
           <nav class="mt-5 flex flex-col gap-3">
             <a
-              href="#top"
+              href="#courses"
               class="text-[17px] text-white/55 hover:text-white transition-colors duration-200"
             >
-              {{ t.footer.navHome }}
+              {{ t.nav.courses }}
             </a>
 
             <a
-              href="#advantages"
+              href="#team"
               class="text-[17px] text-white/55 hover:text-white transition-colors duration-200"
             >
-              {{ t.footer.navAbout }}
+              {{ t.nav.team }}
             </a>
 
             <a
-              href="#contact"
+              href="#faq"
               class="text-[17px] text-white/55 hover:text-white transition-colors duration-200"
             >
-              {{ t.footer.navCareer }}
+              {{ t.nav.faq }}
             </a>
           </nav>
         </div>
@@ -146,9 +150,7 @@
 
         <!-- MAP -->
         <div class="max-[1100px]:col-span-2 max-[700px]:col-span-1">
-          <div
-            class="w-full h-63 overflow-hidden rounded-[18px] bg-white/10"
-          >
+          <div class="w-full h-63 overflow-hidden rounded-[18px] bg-white/10">
             <iframe
               v-if="data.mapEmbed"
               :src="data.mapEmbed"
@@ -175,7 +177,9 @@
 
         <div class="col-span-2 max-[1100px]:col-span-2 max-[700px]:col-span-1">
           <div class="flex items-start gap-2 text-[17px] leading-[1.55]">
-            <span class="font-bold text-white shrink-0"> {{ t.footer.addressLabel }} </span>
+            <span class="font-bold text-white shrink-0">
+              {{ t.footer.addressLabel }}
+            </span>
 
             <span class="text-white/55">
               {{ data.address[lang] }}
@@ -183,7 +187,9 @@
           </div>
 
           <div class="flex items-start gap-2 mt-1 text-[17px] leading-[1.55]">
-            <span class="font-bold text-white shrink-0"> {{ t.landmarkLabel }} </span>
+            <span class="font-bold text-white shrink-0">
+              {{ t.landmarkLabel }}
+            </span>
 
             <span class="text-white/55">
               {{ data.landmark[lang] }}
