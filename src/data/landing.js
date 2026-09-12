@@ -304,8 +304,8 @@ export const amenities = [
   },
   {
     icon: "pin",
-    uz: "Metro va avtobus bekatiga yaqin joylashuv",
-    ru: "Удобное расположение рядом с метро и автобусной остановкой",
+    uz: "Maktabga kelib ketishi uchun mahsus maktab aftobusi",
+    ru: "Специальный школьный автобус для поездок в школу и обратно",
   },
   { icon: "car", uz: "Qulay avtoturargoh", ru: "Удобная парковка" },
   {
