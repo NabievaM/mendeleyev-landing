@@ -187,7 +187,7 @@
             <img
               src="/images/ustoz.png"
               alt=""
-              class="h-[150%] w-[100%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.18)] max-[980px]:h-[105%] max-[980px]:w-[105%] max-[640px]:h-[200%] max-[640px]:w-[110%]"
+              class="h-[150%] w-[100%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.18)] max-[980px]:h-[105%] max-[980px]:w-[105%] max-[640px]:h-[110%] max-[640px]:w-[110%]"
             />
           </div>
 
