@@ -15,7 +15,7 @@
       </div>
 
       <div
-        class="reveal grid grid-cols-3 max-[980px]:grid-cols-2 max-[640px]:grid-cols-1 gap-6"
+        class="reveal grid grid-cols-4 max-[1100px]:grid-cols-2 max-[640px]:grid-cols-1 gap-6"
       >
         <div
           v-for="c in courses"

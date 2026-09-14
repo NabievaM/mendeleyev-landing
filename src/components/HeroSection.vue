@@ -1,7 +1,7 @@
 <template>
   <section
     id="top"
-    class="relative overflow-hidden bg-white dark:bg-ink transition-colors duration-300 pt-16 pb-[100px] max-[640px]:pt-8 max-[640px]:pb-1"
+    class="relative overflow-hidden bg-white dark:bg-ink transition-colors duration-300 pt-16 pb-12.5 max-[640px]:pt-8 max-[640px]:pb-1"
   >
     <div
       class="mx-auto grid max-w-[1280px] grid-cols-[1.05fr_0.95fr] items-center gap-[50px] px-8 max-[980px]:grid-cols-1 max-[980px]:gap-8 max-[640px]:px-5"
@@ -187,6 +187,11 @@
             <img
               src="/images/ustoz.png"
               alt=""
+              fetchpriority="high"
+              loading="eager"
+              decoding="async"
+              width="600"
+              height="800"
               class="h-[150%] w-[100%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.18)] max-[980px]:h-[105%] max-[980px]:w-[105%] max-[640px]:h-[110%] max-[640px]:w-[110%]"
             />
           </div>
@@ -211,72 +216,38 @@
           </div>
         </div>
 
-        <!-- ========================================= -->
-        <!-- ROCKET BADGE -->
-        <!-- ========================================= -->
+        <!-- GRADUATION CAP (bitiruv shapkasi) -->
         <div
           class="absolute left-[-12px] top-[65px] z-30 flex h-[88px] w-[88px] -rotate-[12deg] items-center justify-center rounded-[25px] border-[3px] border-red-300 bg-white/90 shadow-[0_15px_35px_rgba(230,50,98,0.25)] backdrop-blur-md animate-hero-float max-[640px]:left-[-5px] max-[640px]:top-[45px] max-[640px]:h-[68px] max-[640px]:w-[68px] motion-reduce:animate-none"
         >
           <svg
-            class="h-12 w-12 text-red-500 max-[640px]:h-9 max-[640px]:w-9"
+            class="h-16 w-16 text-red-500 max-[640px]:h-12 max-[640px]:w-12"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <!-- Rocket body -->
+            <!-- Cap top -->
+            <path d="M12 3L2 8l10 5 8-4v6h1.5V8L12 3Z" fill="currentColor" />
+            <!-- Cap band / head base -->
             <path
-              d="M14.8 3.2C17.1 1.5 19.7 1.1 21.8 1.2C21.9 3.3 21.5 5.9 19.8 8.2L14.1 13.9L10.1 9.9L14.8 3.2Z"
+              d="M6 10.6V15c0 1.9 2.7 3.5 6 3.5s6-1.6 6-3.5v-4.4l-6 3-6-3Z"
               fill="currentColor"
-            />
-
-            <!-- Rocket bottom -->
-            <path
-              d="M10.1 9.9L14.1 13.9L11.4 16.6L7.4 12.6L10.1 9.9Z"
-              fill="currentColor"
-            />
-
-            <!-- Window -->
-            <circle cx="17.2" cy="5.8" r="1.7" fill="white" />
-
-            <!-- Left fin -->
-            <path
-              d="M10.1 9.9L7.2 10.2C5.8 10.4 4.6 11.2 3.8 12.4L3.2 13.4L8.1 14.1L10.1 9.9Z"
-              fill="currentColor"
-            />
-
-            <!-- Right fin -->
-            <path
-              d="M14.1 13.9L13.8 16.8C13.6 18.2 12.8 19.4 11.6 20.2L10.6 20.8L9.9 15.9L14.1 13.9Z"
-              fill="currentColor"
-            />
-
-            <!-- Flame -->
-            <path
-              d="M7.4 12.6C5.4 14.2 3.8 16.3 3.5 19.5C6.7 19.2 8.8 17.6 10.4 15.6L7.4 12.6Z"
-              fill="currentColor"
-            />
-
-            <!-- Small flame cut -->
-            <path
-              d="M5.4 17.6C6.1 16.7 7 15.9 8 15.3C7.4 16.4 6.5 17.3 5.4 17.6Z"
-              fill="white"
-              opacity="0.9"
             />
           </svg>
         </div>
 
-        <!-- ========================================= -->
-        <!-- LIGHTNING BADGE -->
-        <!-- ========================================= -->
+        <!-- TROPHY (g'alaba) -->
         <div
           class="absolute right-[-5px] top-[230px] z-30 flex h-[58px] w-[58px] rotate-[8deg] items-center justify-center rounded-[18px] border-2 border-red-300 bg-white/90 shadow-[0_12px_28px_rgba(230,50,98,0.22)] backdrop-blur-md max-[640px]:right-[-2px] max-[640px]:top-[190px] max-[640px]:h-[48px] max-[640px]:w-[48px]"
         >
           <svg
-            class="h-7 w-7 text-red-500 max-[640px]:h-6 max-[640px]:w-6"
+            class="h-12 w-12 text-red-500 max-[640px]:h-9 max-[640px]:w-9"
             viewBox="0 0 24 24"
             fill="currentColor"
           >
-            <path d="M13.2 2 5 13h5.5L9.8 22 19 10.5h-5.7L13.2 2Z" />
+            <path
+              d="M6 3h12v2h3v2c0 2.2-1.6 4-3.6 4.4A5.5 5.5 0 0 1 13 13.9V16h3v2H8v-2h3v-2.1a5.5 5.5 0 0 1-4.4-4.5C4.6 9 3 7.2 3 5V3h3ZM5 5v0c0 1.1.8 2 1.9 2.2A9 9 0 0 1 6 5H5Zm13 0a9 9 0 0 1-.9 2.2C18.2 7 19 6.1 19 5v0h-1Z"
+            />
           </svg>
         </div>
 

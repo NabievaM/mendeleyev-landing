@@ -35,13 +35,13 @@ export const dict = {
       badgeStrong: "Mendeleyev LC",
       eyebrow: " o'quv markazidan yangi loyiha:",
       title: "Mendeleyev tajribasiga asoslangan zamonaviy ta'lim!",
-      desc: "Bahodir Mamajonov - Mendeleyev LC, IT Academy va IT School asoschisi, ta'lim sohasida innovatsion tashabbuskor. ",
+      desc: "Bahodir Mamajonov - Mendeleyev LC, IT Academy, IT School, Yorqin School va Mendeleyev School asoschisi va ta'lim sohasida 20 yillik tajribaga ega innovatsion tashabbuskor. ",
       ctaPrimary: "Ma'lumot olish",
       ctaSecondary: "Mendeleyev LC",
     },
     advTitle: "Nega aynan Mendeleyev'ni tanlashingiz kerak?",
     advSub:
-      "Farzandingiz uchun kompleks yechim izlayotgan bo'lsangiz, Mendeleyev aynan to'g'ri manzil.",
+      "Muddatidan avval talaba bo‘lish va maksimal 189 ballni qo‘lga kiritish bo‘yicha — RESPUBLIKADA 1-O‘RINDA!",
     probTitle: "Qanday muammolarga yechim beramiz?",
     probSub:
       "Biz sizning og'riqlaringizdan xabardormiz va ularga yechim berish biz uchun muhim!",
@@ -84,6 +84,12 @@ export const dict = {
     faqTitle: "Ko'p beriladigan savollar",
     faqSub:
       "Quyida bizdan tez-tez so'raladigan savollar uchun javoblarni tayyorlab qo'ydik.",
+    results: {
+      title: "Bizning natijalarimiz",
+      subtitle:
+        "O'quvchilarimizning haqiqiy yutuqlari va universitet natijalari",
+      desc: "Har bir o'quvchimizning muvaffaqiyati — bizning asosiy maqsadimiz. Mendeleyev LC bitiruvchilari nufuzli universitetlarga qabul qilinmoqda va yuqori ball natijalarini ko'rsatmoqda. Quyidagi rasmlarda o'quvchilarimizning bir qismi natijalari va sertifikatlari aks ettirilgan.",
+    },
     footer: {
       about:
         "Sifatli ta'lim orqali kuchli kelajak quruvchi zamonaviy o'quv markazi.",
@@ -115,13 +121,13 @@ export const dict = {
       badgeStrong: "Mendeleyev LC",
       eyebrow: " — новый проект учебного центра:",
       title: "Современное образование, построенное на опыте Mendeleyev!",
-      desc: "Баходир Мамажонов — основатель Mendeleyev LC, IT Academy и IT School, инновационный лидер в сфере образования. ",
+      desc: "Баходир Мамажонов — основатель Mendeleyev LC, IT Academy, IT School, Yorqin School и Mendeleyev School, инновационный предприниматель с 20-летним опытом в сфере образования.",
       ctaPrimary: "Получить информацию",
       ctaSecondary: "Mendeleyev LC",
     },
     advTitle: "Почему стоит выбрать именно Mendeleyev?",
     advSub:
-      "Если вы ищете комплексное решение для своего ребёнка — Mendeleyev именно то место.",
+      "По количеству учеников, ставших студентами досрочно и набравших максимальные 189 баллов — 1-Е МЕСТО В РЕСПУБЛИКЕ!",
     probTitle: "Какие проблемы мы решаем?",
     probSub:
       "Мы знаем о ваших переживаниях, и для нас важно предложить решение!",
@@ -162,6 +168,11 @@ export const dict = {
     },
     faqTitle: "Часто задаваемые вопросы",
     faqSub: "Ниже мы подготовили ответы на часто задаваемые нам вопросы.",
+    results: {
+      title: "Наши результаты",
+      subtitle: "Реальные достижения наших учеников и результаты поступления",
+      desc: "Успех каждого нашего ученика — наша главная цель. Выпускники Mendeleyev LC поступают в престижные университеты и показывают высокие результаты. На изображениях ниже — часть достижений и сертификатов наших учеников.",
+    },
     footer: {
       about:
         "Современный учебный центр, строящий сильное будущее через качественное образование.",
@@ -185,34 +196,34 @@ export const advantages = [
   {
     icon: "lab",
     title: {
-      uz: "Ixtisoslashgan ta’lim",
-      ru: "Специализированное образование",
+      uz: "Natijaga asoslangan ta’lim",
+      ru: "Образование, основанное на результате",
     },
     desc: {
-      uz: "O’quvchining salohiyatidan kelib chiqqan holda aniq, tabiiy yoki ijtimoiy fanlardan biriga chuqurlashuv",
-      ru: "Углублённое изучение одного из точных, естественных или общественных направлений в зависимости от способностей ученика.",
+      uz: "O‘quvchining qiziqishi va salohiyatiga mos ravishda aniq, tabiiy yoki ijtimoiy fanlardan biriga chuqur ixtisoslashish, IT, sun’iy intellekt, robototexnika hamda SAT va IELTS bo‘yicha zamonaviy ta’lim olish.",
+      ru: "Углублённая специализация по одному из точных, естественных или общественных направлений в соответствии с интересами и способностями ученика, а также современное обучение по IT, искусственному интеллекту, робототехнике, SAT и IELTS.",
     },
   },
   {
     icon: "app",
     title: {
-      uz: "Hayotiy ko'nikmalar",
-      ru: "Жизненные навыки",
+      uz: "Yevropa ta'lim tizimi",
+      ru: "Европейская система образования",
     },
     desc: {
-      uz: "O’quvchiga katta hayotda kerak bo’ladigan ko’nikmalar uchun maxsus 11 yillik “SkillDev” dasturi",
-      ru: "Специальная 11-летняя программа «SkillDev», развивающая навыки, необходимые ученику во взрослой жизни.",
+      uz: "Yaponiya va Italiya ta’lim tizimlarining ilg‘or tajribalarini milliy ta’lim yondashuvi bilan uyg‘unlashtirgan zamonaviy o‘quv muhiti.",
+      ru: "Современная образовательная среда, объединяющая передовой опыт образовательных систем Японии и Италии с национальным подходом к обучению.",
     },
   },
   {
     icon: "target",
     title: {
-      uz: "Ijtimoiy xulq-atvor",
-      ru: "Социальное поведение",
+      uz: "Qulay va zamonaviy yotoq tizimi",
+      ru: "Удобная и современная система общежития",
     },
     desc: {
-      uz: "Yaponiya va Janubiy Koreya ta’lim yutuqlariga asoslangan maktab muhiti va `Ijtimoiy etiket` to'garaklari yordamida mas'uliyatli shaxsiyat tarbiyasi",
-      ru: "Воспитание ответственной личности через школьную среду, основанную на образовательных достижениях Японии и Южной Кореи, а также кружки «Социальный этикет».",
+      uz: "O‘quvchilar uchun qulay, xavfsiz va shinam yotoqxona muhiti yaratilgan. Yotoq tizimi o‘quvchining ta’lim olishi, dam olishi va mustaqil rivojlanishi uchun barcha zarur sharoitlarni o‘z ichiga oladi.",
+      ru: "Для учеников создана удобная, безопасная и уютная среда общежития. Система общежития включает все необходимые условия для учёбы, отдыха и самостоятельного развития ученика.",
     },
   },
   {
@@ -220,14 +231,18 @@ export const advantages = [
     title: { uz: "Texnologik maktab", ru: "Технологичная школа" },
     desc: {
       uz: [
-        "LMS va geymifikatsiya",
-        "Ustozlar, o'quvchilar va ota-ona uchun mobil ilova",
-        "Sun'iy intellekt ustiga qurilgan salohiyatni aniqlash tizimi (kelajak 3 yil davomida)",
+        "Raqamli ta’lim muhiti va zamonaviy LMS platformasi",
+        "Gamifikatsiya orqali qiziqarli va samarali o‘quv jarayoni",
+        "O‘quvchi, ustoz va ota-onani birlashtiruvchi mobil ilova",
+        "Sun’iy intellekt yordamida o‘quvchining qobiliyat va salohiyatini aniqlash",
+        "Har bir o‘quvchi uchun individual rivojlanish yo‘nalishini shakllantirish",
       ],
       ru: [
-        "LMS и геймификация",
-        "Мобильное приложение для преподавателей, учеников и родителей",
-        "Система определения потенциала на основе искусственного интеллекта (в ближайшие 3 года)",
+        "Цифровая образовательная среда и современная LMS-платформа",
+        "Интересный и эффективный учебный процесс благодаря геймификации",
+        "Мобильное приложение, объединяющее ученика, преподавателя и родителя",
+        "Определение способностей и потенциала ученика с помощью искусственного интеллекта",
+        "Формирование индивидуального направления развития для каждого ученика",
       ],
     },
   },
@@ -326,7 +341,7 @@ export const courses = [
     },
   },
   {
-    name: { uz: "5-8 sinflar uchun", ru: "Для 5-8 классов" },
+    name: { uz: "5-6 sinflar uchun", ru: "Для 5-6 классов" },
     level: { uz: "O'rta", ru: "Средний" },
     desc: {
       uz: "Barcha fanlardan poydevor bilimlarni egallash, tanqidiy-tahliliy fikrlash va muloqot ko'nikmalarini rivojlantirish hamda xorijiy tillardan birini o'zlashtirish jarayoni.",
@@ -334,10 +349,18 @@ export const courses = [
     },
   },
   {
-    name: { uz: "9-11 sinflar uchun", ru: "Для 9-11 классов" },
+    name: { uz: "7-9 sinflar uchun", ru: "Для 7-9 классов" },
+    level: { uz: "Yuqori o'rta", ru: "Средне-старший" },
+    desc: {
+      uz: "O'quvchining salohiyatini aniqlab, tanlangan fanlarga yo'naltirish, tanqidiy fikrlash va mustaqil izlanish ko'nikmalarini chuqurroq rivojlantirish jarayoni.",
+      ru: "Процесс выявления потенциала ученика, направления на выбранные предметы и более глубокого развития критического мышления и навыков самостоятельного поиска.",
+    },
+  },
+  {
+    name: { uz: "10-11 sinflar uchun", ru: "Для 10-11 классов" },
     level: { uz: "Yuqori", ru: "Старший" },
     desc: {
-      uz: "O’quvchining salohiyatidan kelib chiqqan holda aniq, tabiiy yoki ijtimoiy fanlardan biriga chuqurlashuv, karyerani aniqlash va oliygohga tayyorgarlik bosqichi.",
+      uz: "O'quvchining salohiyatidan kelib chiqqan holda aniq, tabiiy yoki ijtimoiy fanlardan biriga chuqurlashuv, karyerani aniqlash va oliygohga tayyorgarlik bosqichi.",
       ru: "Этап углублённого изучения одного из точных, естественных или общественных предметов в зависимости от потенциала ученика, определения карьеры и подготовки к поступлению в вуз.",
     },
   },
@@ -428,6 +451,15 @@ export const steps = [
       ru: "Родитель и ученик, успешно прошедшие все этапы, получают возможность занять своё место в Mendeleyev.",
     },
   },
+];
+
+export const resultsImages = [
+  "/public/images/ozb-flag.png",
+  "/public/images/ozb-flag.png",
+  "/public/images/ozb-flag.png",
+  "/public/images/ozb-flag.png",
+  "/public/images/ozb-flag.png",
+  "/public/images/rus-flag.webp",
 ];
 
 export const faq = [

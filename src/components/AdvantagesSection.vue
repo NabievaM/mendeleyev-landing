@@ -30,7 +30,7 @@
             v-html="hexDotSvg()"
           ></span>
 
-          <div class="relative z-10">
+          <div class="relative z-10 leading-8">
             <span
               class="w-16 h-16 max-[640px]:w-12 max-[640px]:h-12 rounded-2xl bg-red-500 flex items-center justify-center mb-5 shrink-0 [&>svg]:w-10 [&>svg]:h-10 [&>svg]:text-white"
               v-html="advIconSvg(a.icon)"

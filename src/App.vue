@@ -11,7 +11,13 @@
     />
 
     <main>
-      <HeroSection :t="t" :hero-loaded="heroLoaded" @open-contact="openContactModal" />
+      <HeroSection
+        :t="t"
+        :hero-loaded="heroLoaded"
+        @open-contact="openContactModal"
+      />
+      <Partnerlogosmarquee :lang="lang"/>
+      <ResultsSection :t="t" :lang="lang" :images="resultsImages" />
       <AdvantagesSection :t="t" :lang="lang" :advantages="advantages" />
       <ProblemsSection :t="t" :lang="lang" :problems="problems" />
       <AmenitiesSection :t="t" :lang="lang" :amenities="amenities" />
@@ -60,6 +66,7 @@
 import { computed, onMounted, reactive, ref } from "vue";
 import Header from "./components/Header.vue";
 import HeroSection from "./components/HeroSection.vue";
+import Partnerlogosmarquee from "./components/Partnerlogosmarquee.vue";
 import AdvantagesSection from "./components/AdvantagesSection.vue";
 import ProblemsSection from "./components/ProblemsSection.vue";
 import AmenitiesSection from "./components/AmenitiesSection.vue";
@@ -68,6 +75,7 @@ import TeamSection from "./components/TeamSection.vue";
 import ProcessSection from "./components/ProcessSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import FaqSection from "./components/FaqSection.vue";
+import ResultsSection from "./components/ResultsSection.vue";
 import Footer from "./components/Footer.vue";
 import ContactModal from "./components/ContactModal.vue";
 
@@ -75,6 +83,7 @@ import {
   site,
   dict,
   advantages,
+  resultsImages,
   problems,
   amenities,
   courses,
