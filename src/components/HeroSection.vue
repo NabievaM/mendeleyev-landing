@@ -185,7 +185,7 @@
           <!-- ========================================= -->
           <div class="absolute inset-0 z-5 flex items-end justify-center">
             <img
-              src="/images/ustoz.png"
+              src="/images/ustoz.webp"
               alt=""
               fetchpriority="high"
               loading="eager"

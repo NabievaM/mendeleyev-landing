@@ -20,7 +20,7 @@
           class="relative inline-flex h-14 w-14 max-[640px]:w-10 max-[640px]:h-10 shrink-0 items-center justify-center"
         >
           <img
-            src="/images/logo.jpg"
+            src="/images/logo.webp"
             alt="MENDELEYEV logo"
             class="h-full w-full object-contain rounded-full"
           />
@@ -256,7 +256,7 @@
             class="relative inline-flex h-12 w-12 shrink-0 items-center justify-center"
           >
             <img
-              src="/images/logo.jpg"
+              src="/images/logo.webp"
               alt="MENDELEYEV logo"
               class="h-full w-full object-contain rounded-full"
             />
@@ -405,7 +405,7 @@ const langOptions = [
   {
     code: "uz",
     label: "UZB",
-    flag: "/images/ozb-flag.png",
+    flag: "/images/ozb-flag.webp",
   },
 
   {

@@ -69,7 +69,7 @@
               class="absolute -bottom-3 -right-3 w-10 h-10 rounded-full bg-green-600 ring-4 ring-[#F5F6F7] dark:ring-white/5 flex items-center justify-center overflow-hidden"
             >
               <img
-                src="/images/logo.jpg"
+                src="/images/logo.webp"
                 alt="Logo"
                 class="w-full h-full object-cover"
               />

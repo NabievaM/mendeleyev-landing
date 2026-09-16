@@ -52,7 +52,7 @@
           </div>
 
           <img
-            src="../../public/images/person.png"
+            src="../../public/images/person.webp"
             alt="MENDELEYEV"
             class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[95%] max-[980px]:h-[145%] w-auto max-w-none object-contain z-10"
           />
@@ -90,7 +90,7 @@
           ></span>
 
           <img
-            src="../../public/images/person.png"
+            src="../../public/images/person.webp"
             alt="MENDELEYEV"
             class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[130%] max-[640px]:h-[100%] w-auto max-w-none object-contain z-10"
           />

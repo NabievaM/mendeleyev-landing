@@ -27,7 +27,7 @@
             <!-- Logo icon -->
             <img
               class="w-12 h-12 rounded-full"
-              src="../../public/images/logo.jpg"
+              src="../../public/images/logo.webp"
               alt=""
             />
 

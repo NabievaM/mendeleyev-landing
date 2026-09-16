@@ -80,7 +80,7 @@
                 <span class="inline-block shrink-0 overflow-hidden rounded-xs">
                   <img
                     class="h-5 w-8"
-                    src="../../public/images/ozb-flag.png"
+                    src="../../public/images/ozb-flag.webp"
                     alt=""
                   />
                 </span>
@@ -115,7 +115,7 @@
             <div class="py-4 text-center">
               <img
                 class="mx-auto h-15 w-15 rounded-full"
-                src="../../public/images/logo.jpg"
+                src="../../public/images/logo.webp"
                 alt=""
               />
               <h3 class="mb-2 mt-4 text-[22px] font-bold text-ink dark:text-white">

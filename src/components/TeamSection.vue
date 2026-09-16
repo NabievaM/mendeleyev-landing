@@ -16,39 +16,48 @@
         </p>
       </div>
 
-      <!-- TEAM -->
+      <!-- TEAM: auto-scrolling marquee -->
       <div
-        class="reveal flex gap-5 overflow-x-auto pb-2 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        class="reveal group relative overflow-hidden"
+        @mouseenter="paused = true"
+        @mouseleave="paused = false"
       >
         <div
-          v-for="m in team"
-          :key="m.name.uz"
-          class="snap-start shrink-0 w-[270px] overflow-hidden rounded-[22px] bg-[#F5F6F8] dark:bg-white/5"
+          class="flex gap-5 w-max"
+          :class="{ 'animate-marquee': !paused }"
+          :style="{ animationPlayState: paused ? 'paused' : 'running' }"
         >
-          <!-- IMAGE -->
+          <!-- render team twice for seamless loop -->
           <div
-            class="h-[166px] w-full overflow-hidden rounded-t-[22px] bg-gradient-to-br from-red-800 via-red-700 to-red-500"
+            v-for="(m, i) in [...team, ...team]"
+            :key="m.name.uz + '-' + i"
+            class="shrink-0 w-[270px] overflow-hidden rounded-[22px] bg-[#F5F6F8] dark:bg-white/5"
           >
-            <img
-              :src="m.image"
-              :alt="m.name[lang]"
-              class="block h-full w-full object-cover object-top"
-            />
-          </div>
-
-          <!-- CONTENT -->
-          <div class="px-[14px] py-[17px]">
-            <h4
-              class="mb-[8px] text-[24px] font-bold leading-[1.05] tracking-[-0.5px] text-[#071B4A] dark:text-white"
+            <!-- IMAGE -->
+            <div
+              class="h-[166px] w-full overflow-hidden rounded-t-[22px] bg-gradient-to-br from-red-800 via-red-700 to-red-500"
             >
-              {{ m.name[lang] }}
-            </h4>
+              <img
+                :src="m.image"
+                :alt="m.name[lang]"
+                class="block h-full w-full object-cover object-top"
+              />
+            </div>
 
-            <p
-              class="text-[16px] font-normal leading-[1.25] text-[#8B91A3] dark:text-white/60"
-            >
-              {{ m.role[lang] }}
-            </p>
+            <!-- CONTENT -->
+            <div class="px-[14px] py-[17px]">
+              <h4
+                class="mb-[8px] text-[24px] font-bold leading-[1.05] tracking-[-0.5px] text-[#071B4A] dark:text-white"
+              >
+                {{ m.name[lang] }}
+              </h4>
+
+              <p
+                class="text-[16px] font-normal leading-[1.25] text-[#8B91A3] dark:text-white/60"
+              >
+                {{ m.role[lang] }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -57,9 +66,27 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+
 const props = defineProps({
   t: Object,
   lang: String,
   team: Array,
 });
+
+const paused = ref(false);
 </script>
+
+<style scoped>
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+</style>

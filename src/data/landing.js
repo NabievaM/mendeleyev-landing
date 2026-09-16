@@ -368,34 +368,55 @@ export const courses = [
 
 export const team = [
   {
-    initials: "AR",
-    name: { uz: "Bahodirjon Mamajonov", ru: "Баходиржон Мамажонов" },
-    role: {
-      uz: "Mendeleyev LC asoschisi",
-      ru: "Основатель Mendeleyev LC",
-    },
-    image: "/images/team/Bahodir-Mamajonov.png",
-  },
-  {
-    initials: "DK",
+    initials: "EJ",
     name: { uz: "Erkinov Jasurbek", ru: "Эркинов Жасурбек" },
     role: { uz: "IT Academy direktori", ru: "Директор IT Academy" },
-    image: "/images/team/Jasurbek Erkinov.png",
+    image: "/images/team/Jasurbek Erkinov.webp",
   },
   {
-    initials: "SY",
-    name: { uz: "Ulug'bek Abdulazizov", ru: "Улугбек Абдулазизов" },
-    role: { uz: "Backend o'qituvchisi", ru: "Преподаватель Backend" },
-    image: "/images/team/Ulug'bek Abdulazizov.png",
-  },
-  {
-    initials: "MN",
-    name: { uz: "Salohiddin Maxmudov", ru: "Салохиддин Махмудов" },
+    initials: "IJ",
+    name: { uz: "Ismoilov Jumanazar", ru: "Исмоилов Жуманазар" },
     role: {
-      uz: "Grafik dizayn o'qituvchisi",
-      ru: "Преподаватель графического дизайна",
+      uz: "Mendeleyev Bog'ish direktori",
+      ru: "Директор Mendeleyev Богиш",
     },
-    image: "/images/team/Salohiddin Maxmudov.png",
+    image: "/images/team/Ismoilov Jumanazar.webp",
+  },
+  {
+    initials: "NI",
+    name: { uz: "Nozimjon Ismoilov", ru: "Нозимжон Исмоилов" },
+    role: {
+      uz: "Mendeleyev Dang'ara va Tillar markazi direktori",
+      ru: "Директор Mendeleyev Дангара и языкового центра",
+    },
+    image: "/images/team/Nozimjon Ismoilov.webp",
+  },
+  {
+    initials: "HI",
+    name: { uz: "Husniddin Ismoilov", ru: "Хусниддин Исмоилов" },
+    role: {
+      uz: "Mendeleyev Yakkatut direktori",
+      ru: "Директор Mendeleyev Яккатут",
+    },
+    image: "/images/team/Husniddin Ismoilov.webp",
+  },
+  {
+    initials: "PO",
+    name: { uz: "Pulatov Otabek", ru: "Пулатов Отабек" },
+    role: {
+      uz: "Mendeleyev Uchko'prik direktori",
+      ru: "Директор Mendeleyev Учкуприк",
+    },
+    image: "/images/team/Pulatov Otabek.webp",
+  },
+  {
+    initials: "RY",
+    name: { uz: "Rahimov Yorqinjon", ru: "Рахимов Ёрқинжон" },
+    role: {
+      uz: "Mendeleyev Buvayda School va O'quv markazi direktori",
+      ru: "Директор Mendeleyev Buvayda School и учебного центра",
+    },
+    image: "/images/team/Rahimov Yorqinjon.webp",
   },
 ];
 
@@ -454,11 +475,7 @@ export const steps = [
 ];
 
 export const resultsImages = [
-  "/public/images/ozb-flag.png",
-  "/public/images/ozb-flag.png",
-  "/public/images/ozb-flag.png",
-  "/public/images/ozb-flag.png",
-  "/public/images/ozb-flag.png",
+  "/public/images/ozb-flag.webp",
   "/public/images/rus-flag.webp",
 ];
 
@@ -469,8 +486,8 @@ export const faq = [
       ru: "Сколько учеников в группе?",
     },
     a: {
-      uz: "Har bir guruhda 10-12 nafar o'quvchi bo'ladi — bu har bir bolaga individual e'tibor berish imkonini beradi.",
-      ru: "В каждой группе 10-12 учеников — это позволяет уделять внимание каждому ребёнку.",
+      uz: "Boshlang‘ich guruhlarda o‘quvchilar soni 10 nafardan 18 nafargacha, katta sinflarda esa 20 nafardan 25 nafargacha tashkil etadi.",
+      ru: "В начальных группах количество учеников составляет от 10 до 18 человек, а в старших классах — от 20 до 25 человек.",
     },
   },
   {
@@ -501,16 +518,6 @@ export const faq = [
     a: {
       uz: "Barcha o'qituvchilarimiz yuqori ma'lumotli bo'lib, ko'pchiligi olimpiada va DTM tayyorlash tajribasiga ega.",
       ru: "Все наши преподаватели высококвалифицированы, многие имеют опыт подготовки к олимпиадам и ДТМ.",
-    },
-  },
-  {
-    q: {
-      uz: "Onlayn dars formati mavjudmi?",
-      ru: "Есть ли формат онлайн-обучения?",
-    },
-    a: {
-      uz: "Ha, barcha yo'nalishlar bo'yicha onlayn va oflayn formatdan birini tanlash mumkin.",
-      ru: "Да, по всем направлениям можно выбрать онлайн или офлайн формат.",
     },
   },
   {

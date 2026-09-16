@@ -49,22 +49,22 @@ const logos = [
   {
     name: "Mendeleyev LC",
     subtitle: { uz: "O'quv markazi", ru: "Учебный центр" },
-    src: "/public/images/logo/mendeleyev lc.jpg",
+    src: "/public/images/logo/mendeleyev lc.webp",
   },
   {
     name: "Mendeleyev School",
     subtitle: { uz: "O'rta ta'lim", ru: "Среднее образование" },
-    src: "/public/images/logo/mendeleyev school.jpg",
+    src: "/public/images/logo/mendeleyev school.webp",
   },
   {
     name: "Kokand IT Academy",
     subtitle: { uz: "IT ta'lim", ru: "IT-образование" },
-    src: "/public/images/logo/kokand it academy.jpg",
+    src: "/public/images/logo/kokand it academy.webp",
   },
   {
     name: "Kokand IT School",
     subtitle: { uz: "IT dasturi", ru: "IT-программа" },
-    src: "/public/images/logo/kokand it school.jpg",
+    src: "/public/images/logo/kokand it school.webp",
   },
 ];
 </script>

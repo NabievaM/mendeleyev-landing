@@ -53,7 +53,7 @@
             <span class="inline-block rounded-xs overflow-hidden shrink-0">
               <img
                 class="w-8 h-5"
-                src="../../public/images/ozb-flag.png"
+                src="../../public/images/ozb-flag.webp"
                 alt=""
               />
             </span>
@@ -80,7 +80,7 @@
 
       <template v-else>
         <div class="py-6.5">
-          <img class="w-15 h-15 rounded-full mx-auto" src="../../public/images/logo.jpg" alt="">
+          <img class="w-15 h-15 rounded-full mx-auto" src="../../public/images/logo.webp" alt="">
           <h3 class="text-[24px] font-bold text-white mb-2">
             {{ t.form.thanksTitle }}
           </h3>
