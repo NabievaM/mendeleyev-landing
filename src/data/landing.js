@@ -475,8 +475,8 @@ export const steps = [
 ];
 
 export const resultsImages = [
-  "/public/images/ozb-flag.webp",
-  "/public/images/rus-flag.webp",
+  "/images/ozb-flag.webp",
+  "/images/rus-flag.webp",
 ];
 
 export const faq = [
