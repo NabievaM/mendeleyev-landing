@@ -418,6 +418,15 @@ export const team = [
     },
     image: "/images/team/Rahimov Yorqinjon.webp",
   },
+  {
+    initials: "UG",
+    name: { uz: "Usmonova Gulmiraxon", ru: "Усмонова Гулмирахон" },
+    role: {
+      uz: "Mendeleyev Qo'qon o'quv markazi direktori",
+      ru: "Директор учебного центра Mendeleyev Коканд",
+    },
+    image: "/images/team/Usmonova Gulmiraxon.webp",
+  },
 ];
 
 export const steps = [
@@ -474,10 +483,7 @@ export const steps = [
   },
 ];
 
-export const resultsImages = [
-  "/images/ozb-flag.webp",
-  "/images/rus-flag.webp",
-];
+export const resultsImages = ["/images/ozb-flag.webp", "/images/rus-flag.webp"];
 
 export const faq = [
   {

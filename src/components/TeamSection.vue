@@ -23,8 +23,7 @@
         @mouseleave="paused = false"
       >
         <div
-          class="flex gap-5 w-max"
-          :class="{ 'animate-marquee': !paused }"
+          class="flex gap-5 w-max animate-marquee"
           :style="{ animationPlayState: paused ? 'paused' : 'running' }"
         >
           <!-- render team twice for seamless loop -->

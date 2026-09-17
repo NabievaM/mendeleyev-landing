@@ -66,6 +66,11 @@ const logos = [
     subtitle: { uz: "IT dasturi", ru: "IT-программа" },
     src: "/images/logo/kokand it school.webp",
   },
+  {
+    name: "Yorqin school",
+    subtitle: { uz: "Yangi dastur", ru: "Новая программа" },
+    src: "/images/logo/Yorqin school.webp",
+  },
 ];
 </script>
 
