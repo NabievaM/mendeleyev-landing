@@ -341,7 +341,7 @@ export const courses = [
     },
   },
   {
-    name: { uz: "5-6 sinflar uchun", ru: "Для 5-6 классов" },
+    name: { uz: "5-7 sinflar uchun", ru: "Для 5-7 классов" },
     level: { uz: "O'rta", ru: "Средний" },
     desc: {
       uz: "Barcha fanlardan poydevor bilimlarni egallash, tanqidiy-tahliliy fikrlash va muloqot ko'nikmalarini rivojlantirish hamda xorijiy tillardan birini o'zlashtirish jarayoni.",
@@ -349,7 +349,7 @@ export const courses = [
     },
   },
   {
-    name: { uz: "7-9 sinflar uchun", ru: "Для 7-9 классов" },
+    name: { uz: "8-9 sinflar uchun", ru: "Для 8-9 классов" },
     level: { uz: "Yuqori o'rta", ru: "Средне-старший" },
     desc: {
       uz: "O'quvchining salohiyatini aniqlab, tanlangan fanlarga yo'naltirish, tanqidiy fikrlash va mustaqil izlanish ko'nikmalarini chuqurroq rivojlantirish jarayoni.",
@@ -381,6 +381,9 @@ export const team = [
       ru: "Директор Mendeleyev Богиш",
     },
     image: "/images/team/Ismoilov Jumanazar.webp",
+    imageWidth: "270px",
+    imageHeight: "166px",
+    imagePosition: "center 15%",
   },
   {
     initials: "NI",
@@ -408,6 +411,9 @@ export const team = [
       ru: "Директор Mendeleyev Учкуприк",
     },
     image: "/images/team/Pulatov Otabek.webp",
+    imageWidth: "200px",
+    imageHeight: "166px",
+    imagePosition: "center 11%",
   },
   {
     initials: "RY",
@@ -426,6 +432,15 @@ export const team = [
       ru: "Директор учебного центра Mendeleyev Коканд",
     },
     image: "/images/team/Usmonova Gulmiraxon.webp",
+  },
+  {
+    initials: "NN",
+    name: { uz: "Nozimova Nasiba", ru: "Нозимова Насиба" },
+    role: {
+      uz: "Mendeleyev IT School direktori",
+      ru: "Директор Mendeleyev IT School",
+    },
+    image: "/images/team/Nozimova Nasiba.webp",
   },
 ];
 

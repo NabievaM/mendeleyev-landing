@@ -34,12 +34,17 @@
           >
             <!-- IMAGE -->
             <div
-              class="h-[166px] w-full overflow-hidden rounded-t-[22px] bg-gradient-to-br from-red-800 via-red-700 to-red-500"
+              class="w-full overflow-hidden rounded-t-[22px] bg-gradient-to-br from-red-800 via-red-700 to-red-500"
+              :style="{ height: m.imageHeight || '166px' }"
             >
               <img
                 :src="m.image"
                 :alt="m.name[lang]"
-                class="block h-full w-full object-cover object-top"
+                class="block h-full object-cover mx-auto"
+                :style="{
+                  width: m.imageWidth || '100%',
+                  objectPosition: m.imagePosition || 'center top',
+                }"
               />
             </div>
 
