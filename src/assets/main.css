@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-red: #e63262;
+  --color-red-mid: #c81e48;
+  --color-red-dark: #8e1030;
+  --color-red-deepest: #5c0a20;
+  --color-ink: #1a1625;
+  --color-ink-soft: #4a4457;
+  --color-blush: #fff3f1;
+  --color-line: rgba(26, 22, 37, 0.1);
+
+  --shadow-soft: 0 18px 40px -20px rgba(140, 10, 40, 0.35);
+
+  --radius-lg: 28px;
+  --radius-md: 16px;
+
+  --font-head: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --animate-hero-float: heroFloat 5.5s ease-in-out infinite;
+}
+
+@keyframes heroFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@layer utilities {
+  .reveal {
+    @apply opacity-0 translate-y-6.5 transition-all duration-700 ease-out
+      motion-reduce:opacity-100 motion-reduce:translate-y-0 motion-reduce:transition-none;
+  }
+  .reveal.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
