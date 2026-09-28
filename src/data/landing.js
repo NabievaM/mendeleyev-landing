@@ -737,9 +737,11 @@ export const steps = [
 ];
 
 export const resultsImages = [
-  "/images/eng-flag.png",
-  "/images/ozb-flag.webp",
-  "/images/rus-flag.webp",
+  "/images/results/result2.png",
+  "/images/results/result3.png",
+  "/images/results/result4.jpg",
+  "/images/results/result5.jpg",
+  "/images/results/result6.jpg",
 ];
 
 export const faq = [
@@ -830,6 +832,7 @@ export const schools = [
     instagram: "https://instagram.com/mendeleyev_ntm",
     mapUrl:
       "https://www.google.com/search?sca_esv=a0635a606a15805a&sxsrf=APpeQnt2EW08v79RPo-OzDFcxIAWEXgD6A:1789800037400&q=mendeleyev+soy-shildir+dang%27ara+%D0%B0%D0%B4%D1%80%D0%B5%D1%81&ludocid=2898058605045890547&sa=X&ved=2ahUKEwiWwMrbhPqWAxWyA9sEHVDxJxQQ6BN6BAgpEAI",
+    image: "/images/filial/mendeleyev soy shildir.JPG",
   },
   {
     id: "school-bogish",
@@ -859,6 +862,7 @@ export const schools = [
         "Bog'ish qishlog'i, Qo'qon tumani, Farg'ona viloyati"
       ) +
       "&output=embed",
+    image: "/images/filial/mendeleyev bog'ish.JPG",
   },
   {
     id: "school-yakkatut",
@@ -886,6 +890,7 @@ export const schools = [
       "https://www.google.com/maps?q=" +
       encodeURIComponent("Yakkatut tumani, Amir Temur ko'chasi, 21-uy") +
       "&output=embed",
+    image: "/images/filial/mendeleyev yakkatut.JPG",
   },
   {
     id: "school-buvayda",
@@ -923,14 +928,14 @@ export const schools = [
       en: "Mendeleyev IT School",
     },
     address: {
-      uz: "Qo'qon shahri, Istiqlol ko'chasi, 25-uy",
-      ru: "г. Коканд, улица Истиклол, дом 25",
-      en: "Kokand city, Istiqlol street, house 25",
+      uz: "Qo'qon shahri, G'ishtko'prik MFY, Guzar ko'chasi, 2-uy",
+      ru: "г. Коканд, МСГ Гишткоприк, улица Гузар, дом 2",
+      en: "Kokand city, Gishtkoprik MFY, Guzar street, house 2",
     },
     landmark: {
-      uz: "Qo'qon davlat pedagogika instituti yaqinida",
-      ru: "Рядом с Кокандским государственным педагогическим институтом",
-      en: "Near Kokand State Pedagogical Institute",
+      uz: "6-maktab ro'parasida",
+      ru: "Напротив школы №6",
+      en: "Opposite School No. 6",
     },
     // capacity: 1000,
     phone: "+998 90 401 77 88",
@@ -938,9 +943,7 @@ export const schools = [
     telegram: "https://t.me/mendeleyev_markazi_NTM",
     instagram: "https://instagram.com/itschool_kokand",
     mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Qo'qon shahri, Istiqlol ko'chasi, 25-uy") +
-      "&output=embed",
+      "https://yandex.com/maps/10332/kokand/house/guzar_ko_chasi_2/Y0kYfwNiTEYBQFpqfXlycXRiZA==/",
     image: "/images/filial/it academy.png",
   },
   {
@@ -982,23 +985,21 @@ export const learningCenters = [
       en: "Kokand IT Academy",
     },
     address: {
-      uz: "Qo'qon shahri, Farhod ko'chasi, 30-uy",
-      ru: "г. Коканд, улица Фархад, дом 30",
-      en: "Kokand city, Farhod street, house 30",
+      uz: "Qo'qon shahri, G'ishtko'prik MFY, Guzar ko'chasi, 2-uy",
+      ru: "г. Коканд, МСГ Гишткоприк, улица Гузар, дом 2",
+      en: "Kokand city, Gishtkoprik MFY, Guzar street, house 2",
     },
     landmark: {
-      uz: "Qo'qon davlat texnika kolleji yaqinida",
-      ru: "Рядом с Кокандским государственным техническим колледжем",
-      en: "Near Kokand State Technical College",
+      uz: "6-maktab ro'parasida",
+      ru: "Напротив школы №6",
+      en: "Opposite School No. 6",
     },
     phone: "+998 91 699 77 88",
     phoneRaw: "+998916997788",
     telegram: "https://t.me/itacademyqoqon",
     instagram: "https://instagram.com/itacademy_kokand",
     mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Qo'qon shahri, Farhod ko'chasi, 30-uy") +
-      "&output=embed",
+      "https://yandex.com/maps/10332/kokand/house/guzar_ko_chasi_2/Y0kYfwNiTEYBQFpqfXlycXRiZA==/",
     image: "/images/filial/it academy.png",
   },
   {
@@ -1134,5 +1135,6 @@ export const learningCenters = [
       "https://www.google.com/maps?q=" +
       encodeURIComponent("Buvayda tumani markazi") +
       "&output=embed",
+    image: "/images/filial/mendeleyev buvayda.png",
   },
 ];
