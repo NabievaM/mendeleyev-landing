@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-white dark:bg-white/5 max-[640px]:py-16">
+  <section class="relative py-10 bg-white dark:bg-white/5 max-[640px]:py-16">
     <div class="max-w-295 mx-auto px-8 max-[640px]:px-5">
       <!-- TITLE -->
       <div class="reveal mb-14 text-center">

@@ -11,7 +11,7 @@
           {{ t.advTitle }}
         </h2>
         <p
-          class="text-[17px] text-gray-400 dark:text-white/60 max-w-140 mt-4 leading-[1.6] mx-auto"
+          class="text-[17px] text-gray-400 dark:text-white/60 max-w-200 mt-4 leading-[1.6] mx-auto"
         >
           {{ t.advSub }}
         </p>

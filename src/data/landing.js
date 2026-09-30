@@ -43,7 +43,7 @@ export const dict = {
     },
     advTitle: "Nega aynan Mendeleyev'ni tanlashingiz kerak?",
     advSub:
-      "Muddatidan avval talaba bo‘lish va maksimal 189 ballni qo‘lga kiritish bo‘yicha — RESPUBLIKADA 1-O‘RINDA!",
+      "Muddatidan avval talaba bo‘lish va maksimal 189 ball natijasini qo‘lga kiritish bo‘yicha — RESPUBLIKADA 1-O‘RINDA! 2025-yilda — 34 nafar, 2026-yilda esa — 187 nafar o‘quvchimiz ushbu yuqori natijaga erishdi.",
     probTitle: "Qanday muammolarga yechim beramiz?",
     probSub:
       "Biz sizning og'riqlaringizdan xabardormiz va ularga yechim berish biz uchun muhim!",
@@ -90,7 +90,7 @@ export const dict = {
       title: "Bizning natijalarimiz",
       subtitle:
         "O'quvchilarimizning haqiqiy yutuqlari va universitet natijalari",
-      desc: "Har bir o'quvchimizning muvaffaqiyati — bizning asosiy maqsadimiz. Mendeleyev LC bitiruvchilari nufuzli universitetlarga qabul qilinmoqda va yuqori ball natijalarini ko'rsatmoqda. Quyidagi rasmlarda o'quvchilarimizning bir qismi natijalari va sertifikatlari aks ettirilgan.",
+      desc: "Har bir o‘quvchimizning muvaffaqiyati — bizning asosiy maqsadimiz. Mendeleyev LC so‘nggi 3 yil davomida o‘quvchilarni oliy ta’lim muassasalariga tayyorlash va o‘qishga kiritish bo‘yicha yetakchi natijalarni qayd etib kelmoqda. Eng ko‘p sertifikat olish, yuqori ball natijalarini ko‘rsatish, tibbiyot oliygohlariga qabul hamda davlat granti asosida talabalikka erishish ko‘rsatkichlari bo‘yicha 1-o‘rinni egallab kelmoqda. Quyida o‘quvchilarimiz erishgan natijalar va sertifikatlarning bir qismi bilan tanishishingiz mumkin.",
     },
     branches: {
       schoolsTitle: "Mendeleyev maktablari",
@@ -147,7 +147,7 @@ export const dict = {
     },
     advTitle: "Почему стоит выбрать именно Mendeleyev?",
     advSub:
-      "По количеству учеников, ставших студентами досрочно и набравших максимальные 189 баллов — 1-Е МЕСТО В РЕСПУБЛИКЕ!",
+      "По количеству учеников, досрочно ставших студентами и набравших максимальные 189 баллов — 1-Е МЕСТО В РЕСПУБЛИКЕ! В 2025 году этого выдающегося результата достигли 34 наших ученика, а в 2026 году — уже 187 учеников.",
     probTitle: "Какие проблемы мы решаем?",
     probSub:
       "Мы знаем о ваших переживаниях, и для нас важно предложить решение!",
@@ -191,7 +191,7 @@ export const dict = {
     results: {
       title: "Наши результаты",
       subtitle: "Реальные достижения наших учеников и результаты поступления",
-      desc: "Успех каждого нашего ученика — наша главная цель. Выпускники Mendeleyev LC поступают в престижные университеты и показывают высокие результаты. На изображениях ниже — часть достижений и сертификатов наших учеников.",
+      desc: "Успех каждого нашего ученика — наша главная цель. На протяжении последних 3 лет Mendeleyev LC демонстрирует лидирующие результаты в подготовке учеников и их поступлении в высшие учебные заведения. Центр занимает 1-е место по количеству полученных сертификатов, высоким результатам, поступлению в медицинские вузы и количеству учеников, зачисленных на государственный грант. Ниже вы можете ознакомиться с частью достижений и сертификатов наших учеников.",
     },
     branches: {
       schoolsTitle: "Школы Mendeleyev",
@@ -248,7 +248,7 @@ export const dict = {
     },
     advTitle: "Why should you choose Mendeleyev?",
     advSub:
-      "Ranked 1ST IN THE COUNTRY for the number of students who became university students early and scored the maximum 189 points!",
+      "Ranked 1ST IN THE COUNTRY for the number of students who gained early university admission and achieved the maximum score of 189 points! In 2025, 34 of our students achieved this outstanding result, rising to 187 students in 2026.",
     probTitle: "What problems do we solve?",
     probSub:
       "We understand your concerns, and finding solutions to them matters to us!",
@@ -293,7 +293,7 @@ export const dict = {
       title: "Our results",
       subtitle:
         "Real achievements of our students and university admission results",
-      desc: "The success of every one of our students is our main goal. Mendeleyev LC graduates are admitted to prestigious universities and achieve high scores. The images below show some of our students' results and certificates.",
+      desc: "The success of every student is our main goal. For the past 3 years, Mendeleyev LC has consistently demonstrated leading results in preparing students for admission to higher education institutions. The center ranks 1st in the number of certificates earned, high-score achievements, admissions to medical universities, and the number of students admitted on government grants. Below, you can explore some of our students' achievements and certificates.",
     },
     branches: {
       schoolsTitle: "Mendeleyev schools",
@@ -590,9 +590,8 @@ export const team = [
       en: "Director of Mendeleyev Bog'ish",
     },
     image: "/images/team/Ismoilov Jumanazar.webp",
-    imageWidth: "270px",
+    imageWidth: "210px",
     imageHeight: "166px",
-    imagePosition: "center 15%",
   },
   {
     initials: "NI",
@@ -603,6 +602,8 @@ export const team = [
       en: "Director of Mendeleyev Dang'ara and the Language Center",
     },
     image: "/images/team/Nozimjon Ismoilov.webp",
+    imageWidth: "210px",
+    imageHeight: "166px",
   },
   {
     initials: "HI",
@@ -613,6 +614,8 @@ export const team = [
       en: "Director of Mendeleyev Yakkatut",
     },
     image: "/images/team/Husniddin Ismoilov.webp",
+    imageWidth: "210px",
+    imageHeight: "166px",
   },
   {
     initials: "PO",
@@ -625,7 +628,6 @@ export const team = [
     image: "/images/team/Pulatov Otabek.webp",
     imageWidth: "200px",
     imageHeight: "166px",
-    imagePosition: "center 11%",
   },
   {
     initials: "RY",
@@ -810,58 +812,78 @@ export const faq = [
 export const schools = [
   {
     id: "school-soy-shildir",
+
     name: {
       uz: "Mendeleyev Soy Shildir maktabi",
       ru: "Школа Mendeleyev Сой Шилдир",
       en: "Mendeleyev Soy Shildir School",
     },
+
     address: {
-      uz: "Soy shildir, 150500, Dang'ara, Farg'ona viloyati",
-      ru: "Сой Шилдир, 150500, Дангара, Ферганская область",
-      en: "Soy Shildir, 150500, Dang'ara, Fergana region",
+      uz: "Soy-shildir, Dang'ara tumani, Farg'ona viloyati, O'zbekiston",
+      ru: "Сой-Шилдир, Дангаринский район, Ферганская область, Узбекистан",
+      en: "Soy-shildir, Dangara district, Fergana region, Uzbekistan",
     },
+
     landmark: {
-      uz: "Dang'ara tumani markazida",
-      ru: "В центре Дангаринского района",
-      en: "In the center of Dang'ara district",
+      uz: "Soy-shildir",
+      ru: "Сой-Шилдир",
+      en: "Soy-shildir",
     },
+
     // capacity: 1800,
+
     phone: "+998 91 286 77 88",
     phoneRaw: "+998912867788",
+
     telegram: "https://t.me/mendeleyev_markazi_NTM",
     instagram: "https://instagram.com/mendeleyev_ntm",
-    mapUrl:
-      "https://www.google.com/search?sca_esv=a0635a606a15805a&sxsrf=APpeQnt2EW08v79RPo-OzDFcxIAWEXgD6A:1789800037400&q=mendeleyev+soy-shildir+dang%27ara+%D0%B0%D0%B4%D1%80%D0%B5%D1%81&ludocid=2898058605045890547&sa=X&ved=2ahUKEwiWwMrbhPqWAxWyA9sEHVDxJxQQ6BN6BAgpEAI",
+
+    mapUrl: "https://maps.app.goo.gl/XK5xH2nmHJCyWrK89",
+
+    coordinates: {
+      lat: 40.6030068,
+      lng: 70.9360865,
+    },
+
     image: "/images/filial/mendeleyev soy shildir.JPG",
   },
   {
     id: "school-bogish",
+
     name: {
       uz: "Mendeleyev Bog'ish maktabi",
       ru: "Школа Mendeleyev Богиш",
       en: "Mendeleyev Bog'ish School",
     },
+
     address: {
-      uz: "Bog'ish qishlog'i, Qo'qon tumani, Farg'ona viloyati",
-      ru: "посёлок Богиш, Кокандский район, Ферганская область",
-      en: "Bog'ish village, Kokand district, Fergana region",
+      uz: "Bog'ish, Farg'ona viloyati, O'zbekiston",
+      ru: "Богиш, Ферганская область, Узбекистан",
+      en: "Bog'ish, Fergana region, Uzbekistan",
     },
+
     landmark: {
-      uz: "Bog'ish bozori yaqinida",
-      ru: "Рядом с рынком Богиш",
-      en: "Near the Bog'ish market",
+      uz: "Bog'ish",
+      ru: "Богиш",
+      en: "Bog'ish",
     },
+
     // capacity: 1200,
+
     phone: "+998 88 886 77 88",
     phoneRaw: "+998888867788",
+
     telegram: "https://t.me/mendeleyevbogishmaktabi",
     instagram: "https://instagram.com/mendeleyev__bogish",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent(
-        "Bog'ish qishlog'i, Qo'qon tumani, Farg'ona viloyati"
-      ) +
-      "&output=embed",
+
+    mapUrl: "https://maps.app.goo.gl/wNTZMA8MkqMPzYt99",
+
+    coordinates: {
+      lat: 40.6732357,
+      lng: 70.7896147,
+    },
+
     image: "/images/filial/mendeleyev bog'ish.JPG",
   },
   {
@@ -894,30 +916,40 @@ export const schools = [
   },
   {
     id: "school-buvayda",
+
     name: {
       uz: "Mendeleyev Buvayda maktabi",
       ru: "Школа Mendeleyev Бувайда",
       en: "Mendeleyev Buvayda School",
     },
+
     address: {
-      uz: "Buvayda tumani, Mustaqillik ko'chasi, 11-uy, Farg'ona viloyati",
-      ru: "Бувайдинский район, улица Мустакиллик, дом 11, Ферганская область",
-      en: "Buvayda district, Mustaqillik street, house 11, Fergana region",
+      uz: "Buvayda tumani, Farg'ona viloyati, O'zbekiston",
+      ru: "Бувайдинский район, Ферганская область, Узбекистан",
+      en: "Buvayda district, Fergana region, Uzbekistan",
     },
+
     landmark: {
-      uz: "Buvayda tuman markazida",
-      ru: "В центре района Бувайда",
-      en: "In the center of Buvayda district",
+      uz: "Buvayda tumani",
+      ru: "Бувайдинский район",
+      en: "Buvayda district",
     },
+
     // capacity: 800,
+
     phone: "+998 99 320 77 88",
     phoneRaw: "+998993207788",
+
     telegram: "https://t.me/mendeleyev_markazi_NTM",
     instagram: "https://instagram.com/mendeleyev_buvayda",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Buvayda tumani, Mustaqillik ko'chasi, 11-uy") +
-      "&output=embed",
+
+    mapUrl: "https://maps.app.goo.gl/U8QJp82u5wktP7rT9",
+
+    coordinates: {
+      lat: 40.6338607,
+      lng: 71.0812973,
+    },
+
     image: "/images/filial/mendeleyev buvayda.png",
   },
   {
@@ -1004,56 +1036,64 @@ export const learningCenters = [
   },
   {
     id: "lc-kokand",
+
     name: {
       uz: "Mendeleyev Qo'qon",
       ru: "Mendeleyev Коканд",
       en: "Mendeleyev Kokand",
     },
+
     address: {
-      uz: "Qo'qon shahri, Furqat ko'chasi, 9-uy",
-      ru: "г. Коканд, улица Фуркат, дом 9",
-      en: "Kokand city, Furqat street, house 9",
+      uz: "Qo'qon shahri, Farg'ona viloyati, O'zbekiston",
+      ru: "г. Коканд, Ферганская область, Узбекистан",
+      en: "Kokand city, Fergana region, Uzbekistan",
     },
+
     landmark: {
-      uz: "Qo'qon xoni saroyi yonida",
-      ru: "Рядом с дворцом Кокандского хана",
-      en: "Next to the Palace of the Kokand Khan",
+      uz: "Mendeleyev Qo'qon",
+      ru: "Mendeleyev Коканд",
+      en: "Mendeleyev Kokand",
     },
+
     phone: "+998 90 362 77 88",
     phoneRaw: "+998903627788",
+
     telegram: "https://t.me/Mendeleyev_qoqon_lc",
     instagram: "https://instagram.com/mendeleyev_kokand",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Qo'qon shahri, Furqat ko'chasi, 9-uy") +
-      "&output=embed",
+
+    mapUrl: "https://maps.app.goo.gl/S5VhYxVNbngTCoTA8",
+
     image: "/images/filial/mendeleyev qo'qon.png",
   },
   {
     id: "lc-dangara",
+
     name: {
       uz: "Mendeleyev Dang'ara",
       ru: "Mendeleyev Дангара",
       en: "Mendeleyev Dang'ara",
     },
+
     address: {
-      uz: "Dang'ara tumani, Mustaqillik ko'chasi, 3-uy",
-      ru: "Дангаринский район, улица Мустакиллик, дом 3",
-      en: "Dang'ara district, Mustaqillik street, house 3",
+      uz: "Mendeleyev, 150500, Dang'ara tumani, Farg'ona viloyati, O'zbekiston",
+      ru: "Mendeleyev, 150500, Дангаринский район, Ферганская область, Узбекистан",
+      en: "Mendeleyev, 150500, Dangara district, Fergana region, Uzbekistan",
     },
+
     landmark: {
-      uz: "Tuman hokimligi yonida",
-      ru: "Рядом с хокимиятом района",
-      en: "Next to the district administration",
+      uz: "Mendeleyev",
+      ru: "Mendeleyev",
+      en: "Mendeleyev",
     },
+
     phone: "+998 88 050 77 88",
     phoneRaw: "+998880507788",
+
     telegram: "https://t.me/mendeleyev_dangaramarkazi",
     instagram: "https://instagram.com/mendeleyev_dangara",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Dang'ara tumani markazi") +
-      "&output=embed",
+
+    mapUrl: "https://maps.app.goo.gl/wtQJKKJUhRmnAWdM9",
+
     image: "/images/filial/mendeleyev dang'ara.png",
   },
   {
@@ -1112,29 +1152,38 @@ export const learningCenters = [
   },
   {
     id: "lc-buvayda",
+
     name: {
       uz: "Mendeleyev Buvayda",
       ru: "Mendeleyev Бувайда",
       en: "Mendeleyev Buvayda",
     },
+
     address: {
-      uz: "Buvayda tumani, Istiqlol ko'chasi, 6-uy",
-      ru: "Бувайдинский район, улица Истиклол, дом 6",
-      en: "Buvayda district, Istiqlol street, house 6",
+      uz: "Istiqlol ko'chasi 6, Buvayda, Farg'ona viloyati, O'zbekiston",
+      ru: "улица Истиклол, 6, Бувайда, Ферганская область, Узбекистан",
+      en: "6 Istiqlol Street, Buvayda, Fergana Region, Uzbekistan",
     },
+
     landmark: {
       uz: "Buvayda tuman kasalxonasi qarshisida",
       ru: "Напротив районной больницы Бувайда",
-      en: "Opposite the Buvayda district hospital",
+      en: "Opposite the Buvayda District Hospital",
     },
+
     phone: "+998 99 320 77 88",
-    phoneRaw: "+998903207788",
+    phoneRaw: "+998993207788",
+
     telegram: "https://t.me/mendeleyev_markazi_NTM",
     instagram: "https://instagram.com/mendeleyev_buvayda",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Buvayda tumani markazi") +
-      "&output=embed",
+
+    mapUrl: "https://maps.app.goo.gl/U8QJp82u5wktP7rT9",
+
+    coordinates: {
+      lat: 40.7286631,
+      lng: 70.3805134,
+    },
+
     image: "/images/filial/mendeleyev buvayda.png",
   },
 ];
