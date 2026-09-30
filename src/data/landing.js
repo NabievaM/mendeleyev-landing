@@ -1104,23 +1104,20 @@ export const learningCenters = [
       en: "Language Center",
     },
     address: {
-      uz: "Qo'qon shahri, Navoiy ko'chasi, 40-uy",
-      ru: "г. Коканд, улица Навои, дом 40",
-      en: "Kokand city, Navoiy street, house 40",
+      uz: "Farg'ona viloyati, Dang'ara tumani, Dang'ara shaharchasi",
+      ru: "Ферганская область, Дангаринский район, пгт Дангара",
+      en: "Dang'ara town, Dang'ara district, Fergana region",
     },
     landmark: {
-      uz: "Qo'qon davlat universiteti yonida",
-      ru: "Рядом с Кокандским государственным университетом",
-      en: "Next to Kokand State University",
+      uz: "Dang'ara 1-maktab yonida",
+      ru: "Рядом со школой №1 (Дангара)",
+      en: "Next to School No. 1, Dang'ara",
     },
     phone: "+998 90 233 77 88",
     phoneRaw: "+998902337788",
     telegram: "https://t.me/mendeleyev_markazi_NTM",
     instagram: "https://instagram.com/tillar_markazi__dangara",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Qo'qon shahri, Navoiy ko'chasi, 40-uy") +
-      "&output=embed",
+    mapUrl: "https://maps.app.goo.gl/ppE4hq2RBHxCxeFy6",
     image: "/images/filial/tillar markazi.png",
   },
   {
@@ -1131,23 +1128,20 @@ export const learningCenters = [
       en: "Mendeleyev Uchko'prik",
     },
     address: {
-      uz: "Uchko'prik tumani, Navoiy ko'chasi, 14-uy",
-      ru: "Учкуприкский район, улица Навои, дом 14",
-      en: "Uchko'prik district, Navoiy street, house 14",
+      uz: "Uchko'prik tumani markazi",
+      ru: "Центр Учкуприкского района",
+      en: "Uchko'prik district center",
     },
     landmark: {
-      uz: "Uchko'prik ko'ligi yonida",
-      ru: "Рядом с мостом Учкуприк",
-      en: "Next to the Uchko'prik bridge",
+      uz: "Parhez taomlar oshxonasi ro'parasida",
+      ru: "Напротив столовой «Parhez taomlar»",
+      en: "Opposite the Parhez taomlar canteen",
     },
     phone: "+998 91 288 77 88",
     phoneRaw: "+998912887788",
     telegram: "https://t.me/mendeleyev_uchkuprik",
     instagram: "https://instagram.com/mendeleyev_uchkoprik",
-    mapUrl:
-      "https://www.google.com/maps?q=" +
-      encodeURIComponent("Uchko'prik tumani markazi") +
-      "&output=embed",
+    mapUrl: "https://maps.app.goo.gl/k9LGTZz8KVXPJMFd6",
     image: "/images/filial/mendeleyev uchko'prik.png",
   },
   {
