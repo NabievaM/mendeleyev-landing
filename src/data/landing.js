@@ -43,7 +43,7 @@ export const dict = {
     },
     advTitle: "Nega aynan Mendeleyev'ni tanlashingiz kerak?",
     advSub:
-      "Muddatidan avval talaba bo‘lish va maksimal 189 ball natijasini qo‘lga kiritish bo‘yicha — RESPUBLIKADA 1-O‘RINDA! 2025-yilda — 34 nafar, 2026-yilda esa — 187 nafar o‘quvchimiz ushbu yuqori natijaga erishdi.",
+      "Muddatidan avval talaba bo‘lish va maksimal 189 ball natijasini qo‘lga kiritish bo‘yicha — RESPUBLIKADA 1-O‘RINDA!",
     probTitle: "Qanday muammolarga yechim beramiz?",
     probSub:
       "Biz sizning og'riqlaringizdan xabardormiz va ularga yechim berish biz uchun muhim!",
@@ -90,7 +90,7 @@ export const dict = {
       title: "Bizning natijalarimiz",
       subtitle:
         "O'quvchilarimizning haqiqiy yutuqlari va universitet natijalari",
-      desc: "Har bir o‘quvchimizning muvaffaqiyati — bizning asosiy maqsadimiz. Mendeleyev LC so‘nggi 3 yil davomida o‘quvchilarni oliy ta’lim muassasalariga tayyorlash va o‘qishga kiritish bo‘yicha yetakchi natijalarni qayd etib kelmoqda. Eng ko‘p sertifikat olish, yuqori ball natijalarini ko‘rsatish, tibbiyot oliygohlariga qabul hamda davlat granti asosida talabalikka erishish ko‘rsatkichlari bo‘yicha 1-o‘rinni egallab kelmoqda. Quyida o‘quvchilarimiz erishgan natijalar va sertifikatlarning bir qismi bilan tanishishingiz mumkin.",
+      desc: "Har bir o‘quvchimizning muvaffaqiyati — bizning asosiy maqsadimiz. Mendeleyev LC so‘nggi 3 yil davomida o‘quvchilarni oliy ta’lim muassasalariga tayyorlash va o‘qishga kiritish bo‘yicha yetakchi natijalarni qayd etib kelmoqda. Xususan, 2025-yilda 34 nafar, 2026-yilda esa 187 nafar o‘quvchimiz 189 ballik yuqori natijaga erishdi. Eng ko‘p sertifikat olish, yuqori ball natijalarini ko‘rsatish, tibbiyot oliygohlariga qabul hamda davlat granti asosida talabalikka erishish ko‘rsatkichlari bo‘yicha 1-o‘rinni egallab kelmoqda. Quyida o‘quvchilarimiz erishgan natijalar va sertifikatlarning bir qismi bilan tanishishingiz mumkin.",
     },
     branches: {
       schoolsTitle: "Mendeleyev maktablari",
@@ -147,7 +147,7 @@ export const dict = {
     },
     advTitle: "Почему стоит выбрать именно Mendeleyev?",
     advSub:
-      "По количеству учеников, досрочно ставших студентами и набравших максимальные 189 баллов — 1-Е МЕСТО В РЕСПУБЛИКЕ! В 2025 году этого выдающегося результата достигли 34 наших ученика, а в 2026 году — уже 187 учеников.",
+      "По досрочному поступлению в высшие учебные заведения и достижению максимального результата в 189 баллов — 1-Е МЕСТО В РЕСПУБЛИКЕ!",
     probTitle: "Какие проблемы мы решаем?",
     probSub:
       "Мы знаем о ваших переживаниях, и для нас важно предложить решение!",
@@ -191,7 +191,7 @@ export const dict = {
     results: {
       title: "Наши результаты",
       subtitle: "Реальные достижения наших учеников и результаты поступления",
-      desc: "Успех каждого нашего ученика — наша главная цель. На протяжении последних 3 лет Mendeleyev LC демонстрирует лидирующие результаты в подготовке учеников и их поступлении в высшие учебные заведения. Центр занимает 1-е место по количеству полученных сертификатов, высоким результатам, поступлению в медицинские вузы и количеству учеников, зачисленных на государственный грант. Ниже вы можете ознакомиться с частью достижений и сертификатов наших учеников.",
+      desc: "Успех каждого нашего ученика — наша главная цель. На протяжении последних 3 лет Mendeleyev LC демонстрирует лидирующие результаты в подготовке учеников и их поступлении в высшие учебные заведения. В частности, высокого результата в 189 баллов достигли 34 наших ученика в 2025 году и 187 учеников в 2026 году. Центр занимает 1-е место по количеству полученных сертификатов, высоким результатам, поступлению в медицинские вузы и количеству учеников, зачисленных на государственный грант. Ниже вы можете ознакомиться с частью достижений и сертификатов наших учеников.",
     },
     branches: {
       schoolsTitle: "Школы Mendeleyev",
@@ -248,7 +248,7 @@ export const dict = {
     },
     advTitle: "Why should you choose Mendeleyev?",
     advSub:
-      "Ranked 1ST IN THE COUNTRY for the number of students who gained early university admission and achieved the maximum score of 189 points! In 2025, 34 of our students achieved this outstanding result, rising to 187 students in 2026.",
+      "Ranked 1ST IN THE COUNTRY for early university admission and achieving the maximum score of 189 points!",
     probTitle: "What problems do we solve?",
     probSub:
       "We understand your concerns, and finding solutions to them matters to us!",
@@ -293,7 +293,7 @@ export const dict = {
       title: "Our results",
       subtitle:
         "Real achievements of our students and university admission results",
-      desc: "The success of every student is our main goal. For the past 3 years, Mendeleyev LC has consistently demonstrated leading results in preparing students for admission to higher education institutions. The center ranks 1st in the number of certificates earned, high-score achievements, admissions to medical universities, and the number of students admitted on government grants. Below, you can explore some of our students' achievements and certificates.",
+      desc: "The success of every student is our main goal. For the past 3 years, Mendeleyev LC has consistently demonstrated leading results in preparing students for admission to higher education institutions. In particular, 34 of our students achieved the high score of 189 points in 2025, and 187 students did so in 2026. The center ranks 1st in the number of certificates earned, high-score achievements, admissions to medical universities, and the number of students admitted on government grants. Below, you can explore some of our students' achievements and certificates.",
     },
     branches: {
       schoolsTitle: "Mendeleyev schools",
