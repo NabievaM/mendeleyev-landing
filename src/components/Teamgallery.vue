@@ -11,6 +11,7 @@
       >
         {{ text.title }}
       </h2>
+      
       <p
         class="mx-auto mt-3 max-w-[520px] text-[16px] leading-[1.6] text-[#9AA0AD] dark:text-white/50"
       >

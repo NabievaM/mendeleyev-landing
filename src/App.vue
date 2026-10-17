@@ -100,6 +100,8 @@ import Footer from "./components/Footer.vue";
 import ContactModal from "./components/ContactModal.vue";
 import BranchesSection from "./components/BranchesSection.vue";
 import TeamGallery from "./components/TeamGallery.vue";
+//for test
+
 
 import {
   site,
