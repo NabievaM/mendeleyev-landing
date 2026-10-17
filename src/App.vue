@@ -28,6 +28,7 @@
         @open-contact="openContactModal"
       />
       <TeamSection :t="t" :lang="lang" :team="team" />
+      <TeamGallery :lang="lang" />
       <ProcessSection :t="t" :lang="lang" :steps="steps" />
       <ContactSection
         :t="t"
@@ -98,6 +99,7 @@ import ResultsSection from "./components/ResultsSection.vue";
 import Footer from "./components/Footer.vue";
 import ContactModal from "./components/ContactModal.vue";
 import BranchesSection from "./components/BranchesSection.vue";
+import TeamGallery from "./components/TeamGallery.vue";
 
 import {
   site,
